@@ -5,7 +5,7 @@
   margin-bottom: 40px;
   color: #00a9ff;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 @media (max-width: 600px) {
@@ -15,6 +15,22 @@
     color: #00a9ff;
     font-weight: bold;
     font-size: 30px;
+  }
+}
+
+@media (max-width: 321px) {
+  .heading-section {
+    margin-left: 80px;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 1269px) {
+  section {
+    width: 1470px;
+  }
+
+  .heading-section {
+    width: 1470px;
   }
 }
 
@@ -70,6 +86,22 @@ header {
   }
 }
 
+@media (min-width: 427px) and (max-width: 769px) {
+  .nav-list {
+    display: none;
+  }
+
+  .nav-bar {
+    margin-left: 160px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1070px) {
+  .nav-list {
+    display: none;
+  }
+}
+
 /* intro */
 
 .intro-section {
@@ -121,7 +153,7 @@ header {
   border-radius: 12px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 426px) {
   .intro-section {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr;
@@ -165,6 +197,17 @@ header {
   }
 }
 
+@media (min-width: 394px) and (max-width: 426px) {
+  .intro-section {
+    margin-left: 10px;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 769px) {
+  .intro-section {
+    margin-left: 180px;
+  }
+}
 /* About */
 
 .about-adarsh {
@@ -209,6 +252,19 @@ header {
   }
 }
 
+@media (min-width: 394px) and (max-width: 426px) {
+  .about-adarsh {
+    margin-left: 65px;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 1269px) {
+  .about-adarsh {
+    margin-left: 200px;
+    width: 1100px;
+  }
+}
+
 /* educatiion Details */
 .edu-section {
   margin-bottom: 100px;
@@ -245,6 +301,19 @@ header {
     font-size: 15px;
   }
 }
+
+@media (min-width: 394px) and (max-width: 426px) {
+  .eduction-details {
+    margin-left: 15px;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 1269px) {
+  .eduction-details {
+    margin-left: 200px;
+    width: 1000px;
+  }
+}
 /* skills */
 
 .skills {
@@ -268,6 +337,12 @@ header {
     align-items: center;
     gap: 80px;
     margin-top: 70px;
+  }
+}
+
+@media (min-width: 394px) and (max-width: 426px) {
+  .skills {
+    margin-left: 120px;
   }
 }
 
@@ -320,7 +395,7 @@ header {
 
 @media (max-width: 600px) {
   .project-container {
-    margin-left: 18px;
+    margin-left: 25px;
     flex-direction: column;
     width: 350px;
     height: fit-content;
@@ -332,6 +407,12 @@ header {
 
   .project-section {
     margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 394px) and (max-width: 426px) {
+  .project-container {
+    margin-left: 40px;
   }
 }
 
@@ -358,6 +439,12 @@ header {
   }
 }
 
+@media (min-width: 394px) and (max-width: 426px) {
+  .find-me {
+    margin-left: 160px;
+  }
+}
+
 /* footer */
 .footer-container {
   background-color: #00a9ff;
@@ -372,6 +459,18 @@ header {
 
 @media (max-width: 600px) {
   .footer-container {
-    width: 400px;
+    width: 405px;
+  }
+}
+
+@media (min-width: 394px) and (max-width: 426px) {
+  .footer-container {
+    width: 425px;
+  }
+}
+
+@media (min-width: 427px) and (max-width: 1440px) {
+  .footer-container {
+    width: 1470px;
   }
 }
