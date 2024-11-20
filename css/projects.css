@@ -1,0 +1,83 @@
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  gap: 30px;
+  background-color: transparent;
+}
+
+.Project-box {
+  width: 400px;
+  height: 400px;
+  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+  perspective: 1000px; /* Add perspective to create 3D effect */
+  cursor: pointer;
+}
+
+.project-img {
+  height: 250px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.para-project-summary {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #00a9ff;
+}
+
+.project-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-title:link {
+  color: #00a9ff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  color: black;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+}
+
+.flip-card-front {
+  background-color: white;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.Project-box:hover .project-item {
+  transform: rotateY(180deg);
+}
+
+.project-title {
+  color: #00a9ff;
+}
+
+.github-link:link,
+.github-link:visited {
+  color: #00a9ff;
+  background-color: transparent;
+  text-decoration: underline;
+}

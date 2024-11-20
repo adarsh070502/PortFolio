@@ -1,0 +1,142 @@
+:root {
+  --primary-color: #1e90ff;
+}
+
+.main-timeline {
+  padding: 50px 20px 0px 20px;
+}
+
+.main-timeline:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.main-timeline .timeline {
+  width: 50%;
+  padding: 3px 0;
+  margin: 0 2px 0 0;
+  float: left;
+}
+.main-timeline .timeline-content {
+  padding: 100px 50px 50px 50px;
+  display: block;
+  position: relative;
+}
+.main-timeline .timeline-content:hover {
+  text-decoration: none;
+}
+.main-timeline .timeline-content:before {
+  content: "";
+  background: #fff;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #000;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  right: -10px;
+  top: 0%;
+}
+.main-timeline .timeline-icon {
+  background-color: white;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 80px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 10px solid var(--primary-color);
+  box-shadow: 0 0 10px var(--primary-color);
+  transform: translateY(-50%);
+  position: absolute;
+  top: 0%;
+  right: 11px;
+  z-index: 1;
+}
+.main-timeline .company-title {
+  color: var(--primary-color);
+  font-size: 26px;
+  font-weight: 600;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  margin: 0 0 8px;
+}
+.main-timeline {
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.job-title {
+  color: var(--primary-color);
+  font-size: 20px;
+  margin: 0px;
+  padding-top: 5px;
+}
+
+.company-logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.duration-location {
+  font-size: 12px;
+}
+
+.side-titles {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.project-side-titles {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.timeline-content {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.main-timeline .timeline:nth-child(even) {
+  margin: 0 0 0 2px;
+  float: right;
+}
+
+.main-timeline .timeline:nth-child(even) .timeline-content:before {
+  right: auto;
+  left: -10px;
+}
+.main-timeline .timeline:nth-child(even) .timeline-icon {
+  right: auto;
+  left: 11px;
+}
+
+.main-timeline:before {
+  transform: translateX(0);
+  left: 23px;
+}
+.main-timeline .timeline,
+.main-timeline .timeline:nth-child(even) {
+  width: 100%;
+  margin: 0 0 20px;
+}
+
+.main-timeline .timeline-content:before,
+.main-timeline .timeline:nth-child(even) .timeline-content:before {
+  left: 0;
+}
+.main-timeline .timeline-icon,
+.main-timeline .timeline:nth-child(even) .timeline-icon {
+  left: 20px;
+  right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-timeline .timeline-content {
+    padding: 100px 0px 50px 0px;
+  }
+}

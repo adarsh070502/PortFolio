@@ -1,0 +1,162 @@
+:root {
+  --primary-color: #1e90ff;
+}
+.Header {
+  box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  padding: 0px 20px 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.nav-bar-link:link,
+.nav-bar-link:visited,
+.nav-bar-link:hover,
+.nav-bar-link:active {
+  /* color: var(--primary-color); */
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.nav-bar-link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+}
+
+.Adarsh-link:hover {
+  text-decoration: none;
+}
+
+.three-dashes {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.no-scroll {
+  overflow: hidden; /* Disables scrolling */
+  height: 100%; /* Prevents content shifting */
+}
+
+.mobile-nav-adarsh-name {
+  z-index: 1001;
+  color: var(--primary-color);
+}
+.add-blue {
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .Adarsh-Name {
+    font-size: 15px;
+  }
+
+  .nav-links {
+    gap: 15px;
+    font-size: 7px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-bar-link {
+    font-size: 12px;
+  }
+
+  /* Dropdown styling for mobile */
+  .nav-links.dropdown {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .three-dashes {
+    display: inline-block;
+    cursor: pointer;
+    padding-right: 10px;
+    z-index: 1000;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+
+  .cross-mark .bar1 {
+    transform: translate(0, 8px) rotate(-45deg);
+  }
+
+  .cross-mark .bar2 {
+    opacity: 0;
+  }
+
+  .cross-mark .bar3 {
+    transform: translate(0, -8px) rotate(45deg);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .Adarsh-Name {
+    font-size: 15px;
+  }
+
+  .nav-links {
+    gap: 20px;
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Adarsh-Name {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    gap: 30px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .Adarsh-Name {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    gap: 30px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .Adarsh-Name {
+    font-size: 20px;
+  }
+
+  .nav-links {
+    gap: 40px;
+    font-size: 15px;
+  }
+}

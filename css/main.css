@@ -1,0 +1,434 @@
+:root {
+  --primary-color: #1e90ff;
+}
+
+/* Make sure html and body take full height and have no margin */
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0; /* Ensure there is no default padding */
+  box-sizing: border-box; /* Apply box-sizing to include padding and border in the element's total width and height */
+  font-family: "Roboto";
+}
+
+/* Wrapper for the entire app */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Make the container take the full height of the page */
+}
+
+/* Main content area should take the available space */
+.main-content {
+  flex-grow: 1; /* This makes the content area flexible and pushes the footer down */
+}
+
+.Main {
+  padding: 20px;
+}
+
+.Website-Headers {
+  color: var(--primary-color);
+  text-align: center;
+  padding-bottom: 20px;
+  text-decoration: underline;
+}
+
+/* Intro container css */
+
+.Intro-container {
+  display: flex;
+  gap: 200px;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Center text inside the div */
+}
+
+.Intro-Text {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Adarsh-Image {
+  width: 650px;
+  height: 480px;
+}
+
+.Resume-download-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Resume-button {
+  display: flex;
+  gap: 5px;
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 12px;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Center text inside the div */
+  text-decoration: none;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.Resume-download-anchor:link,
+.Resume-download-anchor:visited,
+.Resume-download-anchor:hover,
+.Resume-download-anchor:active {
+  color: var(--primary-color);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* About adarsh Container */
+.about-adarsh-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-adarsh-flex {
+  display: flex;
+  gap: 200px;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  text-align: center; /* Center text inside the div */
+  width: 1000px;
+}
+
+.about-adarsh-flex > .about-adarsh-para-container {
+  font-size: 18px;
+}
+
+.About-Adarsh-Image {
+  height: 400px;
+  width: 300px;
+}
+
+/* Education details container */
+.education-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.edu-list {
+  list-style-type: none;
+}
+.edu-titles {
+  color: var(--primary-color);
+}
+
+/*Projects Container */
+.projects-main-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.more-anchor:link,
+.more-anchor:visited,
+.more-anchor:hover,
+.more-anchor:active {
+  color: var(--primary-color);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+/* Skill details container */
+.skills-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+.skills {
+  display: flex;
+  gap: 40px;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Find me container */
+.find-me-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+/* Each page headers */
+.page-heading {
+  text-align: center;
+}
+
+.page-headers {
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 600px) {
+  /* Containers padding bottom */
+  .Containers {
+    padding-bottom: 30px;
+  }
+
+  /* Intro container css */
+
+  .Intro-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .Intro-Text {
+    font-size: 30px;
+  }
+
+  .Intro-Text-container {
+    order: 2;
+  }
+  .Intro-adarsh-image {
+    order: 1;
+  }
+
+  .Adarsh-Image {
+    width: 350px;
+    height: 280px;
+  }
+  .Resume-button {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  /* About adarsh Container */
+
+  .about-adarsh-flex {
+    flex-direction: column;
+    gap: 50px;
+    width: 300px;
+  }
+
+  .about-adarsh-flex > .about-adarsh-para-container {
+    font-size: 15px;
+  }
+
+  .About-Adarsh-Image {
+    height: 280px;
+    width: 200px;
+  }
+
+  /* Project Container*/
+  .projects-container {
+    flex-direction: column;
+  }
+
+  /* Skill details container */
+  .skills {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  /* Find me container */
+  .find-me-container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  /* Containers padding bottom */
+  .Containers {
+    padding-bottom: 30px;
+  }
+
+  /* Intro container css */
+  .Intro-Text {
+    font-size: 28px;
+  }
+
+  .Intro-container {
+    gap: 80px;
+  }
+
+  .Adarsh-Image {
+    width: 320px;
+    height: 240px;
+  }
+
+  .Resume-button {
+    padding: 7px;
+    font-size: 11px;
+  }
+
+  /* About adarsh Container */
+  .about-adarsh-flex {
+    gap: 50px;
+  }
+
+  .about-adarsh-flex > .about-adarsh-para-container {
+    font-size: 15px;
+  }
+
+  .About-Adarsh-Image {
+    height: 280px;
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* Containers padding bottom */
+  .Containers {
+    padding-bottom: 40px;
+  }
+
+  /* Intro container css */
+  .Intro-Text {
+    font-size: 30px;
+  }
+
+  .Intro-container {
+    gap: 150px;
+  }
+
+  .Adarsh-Image {
+    width: 380px;
+    height: 280px;
+  }
+
+  .Resume-button {
+    padding: 9px;
+    font-size: 12px;
+  }
+
+  /* About adarsh Container */
+  .about-adarsh-flex {
+    gap: 50px;
+    width: 700px;
+  }
+
+  .about-adarsh-flex > .about-adarsh-para-container {
+    font-size: 15px;
+  }
+
+  .About-Adarsh-Image {
+    height: 280px;
+    width: 200px;
+  }
+
+  /* Education details container */
+  .eduction-details {
+    margin-right: 150px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* Containers padding bottom */
+  .Containers {
+    padding-bottom: 50px;
+  }
+
+  /* Intro container css */
+  .Intro-Text {
+    font-size: 35px;
+  }
+
+  .Intro-container {
+    gap: 200px;
+  }
+
+  .Adarsh-Image {
+    width: 500px;
+    height: 380px;
+  }
+
+  .Resume-button {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  /* About adarsh Container */
+  .about-adarsh-flex {
+    flex-direction: row;
+    gap: 150px;
+    width: 800px;
+  }
+
+  .about-adarsh-flex > .about-adarsh-para-container {
+    font-size: 17px;
+  }
+
+  .About-Adarsh-Image {
+    height: 350px;
+    width: 250px;
+  }
+
+  /* Education details container */
+  .eduction-details {
+    margin-right: 300px;
+  }
+
+  /* Projects Container */
+  .projects-container {
+    flex-direction: row;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Containers padding bottom */
+  .Containers {
+    padding-bottom: 50px;
+  }
+
+  /* Intro container css */
+  .Intro-Text {
+    font-size: 50px;
+  }
+
+  .Intro-container {
+    gap: 200px;
+  }
+
+  .Adarsh-Image {
+    width: 650px;
+    height: 500px;
+  }
+
+  .Resume-button {
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  /* About adarsh Container */
+  .about-adarsh-flex {
+    display: flex;
+    gap: 200px;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text inside the div */
+    width: 1000px;
+  }
+
+  .about-adarsh-flex > .about-adarsh-para-container {
+    font-size: 17px;
+  }
+
+  .About-Adarsh-Image {
+    height: 400px;
+    width: 300px;
+  }
+
+  /* Education details container */
+  .eduction-details {
+    margin-right: 450px;
+  }
+  .edu-titles {
+    font-size: 20px;
+  }
+}
