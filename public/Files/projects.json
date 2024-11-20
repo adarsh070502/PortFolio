@@ -1,0 +1,89 @@
+[
+  {
+    "projectName": "Mapplot Tool",
+    "projectSummary": "Transforming complex data into actionable insights.",
+    "description": "A visualization tool which take dlt files as input then the data is extracted from these files which are then visualized for better understanding of the user",
+    "startDate": "April 1, 2024",
+    "endDate": "October 18, 2024",
+    "technologiesUsed": [
+      "Python",
+      "Html",
+      "Plotly",
+      "PostgresSQL",
+      "PostgresSQL",
+      "PostgresSQL",
+      "PostgresSQL",
+      "PostgresSQL",
+      "PostgresSQL"
+    ],
+    "teamMembers": ["John Doe", "Jane Smith"],
+    "imageUrl": "/images/projects_images/mapplot_tool.jpg",
+    "githubLink": "https://github.com/adarsh070502/InternetSpeedTwitterBot",
+    "status": "completed"
+  },
+
+  {
+    "projectName": "Demo Tool",
+    "projectSummary": "Transforming complex data into actionable insights.",
+    "description": "A visualization tool which take dlt files as input then the data is extracted from these files which are then visualized for better understanding of the user",
+    "startDate": "01-04-2024",
+    "endDate": "18-10-2024",
+    "technologiesUsed": ["Python", "Html", "Plotly", "PsotgresSQL"],
+    "teamMembers": ["John Doe", "Jane Smith"],
+    "imageUrl": "/images/projects_images/mapplot_tool.jpg",
+    "githubLink": "https://github.com/adarsh070502/InternetSpeedTwitterBot",
+    "status": "completed"
+  },
+
+  {
+    "projectName": "Demo Tool",
+    "projectSummary": "Transforming complex data into actionable insights.",
+    "description": "A visualization tool which take dlt files as input then the data is extracted from these files which are then visualized for better understanding of the user",
+    "startDate": "01-04-2024",
+    "endDate": "18-10-2024",
+    "technologiesUsed": ["Python", "Html", "Plotly", "PsotgresSQL"],
+    "teamMembers": ["John Doe", "Jane Smith"],
+    "imageUrl": "/images/projects_images/mapplot_tool.jpg",
+    "githubLink": "https://github.com/adarsh070502/InternetSpeedTwitterBot",
+    "status": "completed"
+  },
+
+  {
+    "projectName": "Demo Tool",
+    "projectSummary": "Transforming complex data into actionable insights.",
+    "description": "A visualization tool which take dlt files as input then the data is extracted from these files which are then visualized for better understanding of the user",
+    "startDate": "01-04-2024",
+    "endDate": "18-10-2024",
+    "technologiesUsed": ["Python", "Html", "Plotly", "PsotgresSQL"],
+    "teamMembers": ["John Doe", "Jane Smith"],
+    "imageUrl": "/images/projects_images/mapplot_tool.jpg",
+    "githubLink": "https://github.com/adarsh070502/InternetSpeedTwitterBot",
+    "status": "completed"
+  },
+
+  {
+    "projectName": "Demo Tool",
+    "projectSummary": "Transforming complex data into actionable insights.",
+    "description": "A visualization tool which take dlt files as input then the data is extracted from these files which are then visualized for better understanding of the user",
+    "startDate": "01-04-2024",
+    "endDate": "18-10-2024",
+    "technologiesUsed": ["Python", "Html", "Plotly", "PsotgresSQL"],
+    "teamMembers": ["John Doe", "Jane Smith"],
+    "imageUrl": "/images/projects_images/mapplot_tool.jpg",
+    "githubLink": "https://github.com/adarsh070502/InternetSpeedTwitterBot",
+    "status": "completed"
+  },
+
+  {
+    "projectName": "Demo Tool",
+    "projectSummary": "Transforming complex data into actionable insights.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla orci risus, bibendum in odio ut, varius congue dolor. Phasellus aliquet magna vitae sodales fermentum. Etiam lobortis, justo sed facilisis tempus, dolor nunc pharetra est, tincidunt imperdiet eros ligula at risus. Mauris et viverra quam. Ut eget cursus tortor, sed vulputate est. Vivamus eu turpis vel sem molestie lacinia quis ac arcu. Donec commodo in nunc et vulputate. Vestibulum volutpat tortor nec scelerisque tincidunt. Cras hendrerit.",
+    "startDate": "01-04-2024",
+    "endDate": "18-10-2024",
+    "technologiesUsed": ["Python", "Html", "Plotly", "PsotgresSQL"],
+    "teamMembers": ["John Doe", "Jane Smith"],
+    "imageUrl": "/images/projects_images/mapplot_tool.jpg",
+    "githubLink": "https://github.com/adarsh070502/InternetSpeedTwitterBot",
+    "status": "completed"
+  }
+]

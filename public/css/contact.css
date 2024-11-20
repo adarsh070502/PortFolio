@@ -1,0 +1,131 @@
+.contact-me-container {
+  display: flex;
+  gap: 100px;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  padding: 50px 0 130px 0;
+}
+
+.social-media-container {
+  display: flex;
+  gap: 10px;
+}
+
+.contact-me-gmail-anchor:link,
+.contact-me-gmail-anchor:visited,
+.contact-me-gmail-anchor:hover,
+.contact-me-gmail-anchor:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.user-form-container {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.submit-button {
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.submit-button:hover {
+  border: 1px solid #0099cc;
+  background-color: #1e90ff;
+  color: #ffffff;
+}
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-input {
+  border-width: 0px 0px 2px 0px;
+  height: 40px;
+}
+
+.text-area {
+  height: 168px;
+  width: 350px;
+}
+
+.form-input:focus {
+  outline: none;
+}
+
+.vertical-line {
+  width: 0px;
+  border-left: 1px solid #000;
+  height: 100%;
+  float: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-me-container {
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+
+  .contact-me-information {
+    padding-left: 10px;
+  }
+
+  .text-area {
+    height: 168px;
+    width: 200px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .contact-me-container {
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+  }
+
+  .contact-me-information {
+    padding-left: 10px;
+  }
+
+  .text-area {
+    height: 168px;
+    width: 250px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact-me-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .text-area {
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .contact-me-container {
+    flex-direction: row;
+    gap: 30px;
+    padding-bottom: 110px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contact-me-container {
+    padding-top: 30px;
+    padding-bottom: 110px;
+    gap: 100px;
+  }
+}

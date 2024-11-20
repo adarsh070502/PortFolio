@@ -1,0 +1,44 @@
+[
+  {
+    "companyLogo": "/images/Professional_Experience_Images/LTTS.png",
+    "jobTitle": "Consultant",
+    "companyName": "L&T Technological Services",
+    "location": "Mysuru, India",
+    "duration": "September 2023 - October 2024",
+    "description": "As a Python-based tool developer at LTTS, I designed and implemented tools that streamline engineering processes, significantly reducing time spent on manual analysis. Key projects include the 'Boundary Value Analysis' tool, which ensures thorough testing by generating reports for global variable values, and the 'Mapplot Tool,' which processes DLT files to provide insights on parameters like voice/data registration, RAT values, and geo-positioning. I collaborated directly with clients to gather requirements and incorporate them effectively into the tools.",
+    "projects": [
+      {
+        "name": "Boundary Value Analysis Tool",
+        "description": "Tool for generating reports to ensure global variables are tested at various value boundaries.",
+        "impact": "Reduced testing time by 30%."
+      },
+      {
+        "name": "Mapplot Tool",
+        "description": "Processes DLT files for insights on voice/data registration, RAT values, geo-mapping.",
+        "impact": "Improved data analysis efficiency by 40%."
+      }
+    ],
+    "skills": ["Python", "PostgreSQL", "Plotly", "Data processing"]
+  },
+  {
+    "companyLogo": "/images/Professional_Experience_Images/Aiplex.png",
+    "jobTitle": "Frontend Developer",
+    "companyName": "AIPLEX",
+    "location": "Bengaluru, India",
+    "duration": "March 2018 - December 2019",
+    "description": "Worked on building responsive websites using HTML, CSS, and JavaScript.",
+    "projects": [
+      {
+        "name": "Boundary Value Analysis Tool",
+        "description": "Tool for generating reports to ensure global variables are tested at various value boundaries.",
+        "impact": "Reduced testing time by 30%."
+      },
+      {
+        "name": "Mapplot Tool",
+        "description": "Processes DLT files for insights on voice/data registration, RAT values, geo-mapping.",
+        "impact": "Improved data analysis efficiency by 40%."
+      }
+    ],
+    "skills": ["HTML", "CSS", "JavaScript"]
+  }
+]
